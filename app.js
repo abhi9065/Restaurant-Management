@@ -5,7 +5,7 @@ const app = express();
 const ConnectDB = require("./db/connect")
 const User = require("./models/userModel")
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 2000;
 
 const product_route = require("./routes/product");
 
