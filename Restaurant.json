@@ -1,0 +1,277 @@
+ [
+      {
+       
+        "name": "Sample Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main Street",
+        "city": "Sample City",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Margherita Pizza",
+            "price": 10.99,
+            "description": "Traditional Italian pizza with tomato, mozzarella, and basil.",
+            "isVeg": "veg"
+          },
+          {
+            "name": "Pasta",
+            "price": 20.99,
+            "description": ""
+          }
+        ],
+        "averageRating": 4.7
+      },
+      {
+     
+        "name": "Sample Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main Street",
+        "city": "Mumbai",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "description": "Classic Italian pasta dish with bacon and eggs.",
+            "isVeg": "non-veg"
+          },
+          {
+            "name": "Margherita Pizza",
+            "price": 10.99,
+            "description": "Traditional Italian pizza with tomato, mozzarella, and basil.",
+            "isVeg": "veg"
+          }
+        ],
+        "averageRating": 4.7
+      },
+      {
+   
+        "name": "New Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main Street",
+        "city": "Delhi",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Pizza Margherita",
+            "price": 12.99,
+            "description": "Classic Italian pizza with tomato and mozzarella",
+            "isVeg": "veg"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "65082324be5560e18e64dbd8",
+            "rating": 4.5,
+            "text": "This restaurant is amazing!"
+          }
+        ],
+        "averageRating": 4.5
+      },
+      {
+      
+        "name": "Pasta Carbonara",
+        "cuisine": ["Chinese"],
+        "address": "123 Main St",
+        "city": "New York",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Pizza Margherita",
+            "price": 12.99,
+            "description": "Classic Margherita pizza with fresh tomatoes and basil.",
+            "isVeg": "true"
+          },
+          {
+            "name": "Pasta Carbonara",
+            "price": 15.99,
+            "description": "Creamy pasta with pancetta, eggs, and cheese.",
+            "isVeg": "false"
+          }
+        ],
+        "averageRating": 0
+      },
+      {
+     
+        "name": "Pasta Carbonara",
+        "cuisine": ["Italian"],
+        "address": "123 Main St",
+        "city": "Canada",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Pizza Margherita",
+            "price": 12.99,
+            "description": "Classic Margherita pizza with fresh tomatoes and basil.",
+            "isVeg": "veg"
+          },
+          {
+            "name": "Pasta Carbonara",
+            "price": 15.99,
+            "description": "Creamy pasta with pancetta, eggs, and cheese.",
+            "isVeg": "non-veg"
+          }
+        ],
+        "averageRating": 0
+      },
+      {
+        "_id": "6508559d84c4e0b3dbccb9db",
+        "name": "Pasta Carbonara",
+        "cuisine": ["Italian"],
+        "address": "123 Main St",
+        "city": "New York",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Pizza Margherita",
+            "price": 12.99,
+            "description": "Classic Margherita pizza with fresh tomatoes and basil.",
+            "isVeg": "veg"
+          },
+          {
+            "name": "Pasta Carbonara",
+            "price": 15.99,
+            "description": "Creamy pasta with pancetta, eggs, and cheese.",
+            "isVeg": "non-veg"
+          }
+        ],
+        "averageRating": 0
+      },
+    
+      {
+        "name": "gulzar",
+        "cuisine": ["Italian"],
+        "address": "123 Main St",
+        "city": "New York",
+        "rating": 4.5,
+        "averageRating": 0,
+        "menu": [],
+        "reviews": []
+      },
+      {
+     
+        "name": "Sample",
+        "cuisine": ["Italian"],
+        "address": "123 Main Street",
+        "city": "Sample City",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "description": "Classic Italian pasta dish with bacon and eggs.",
+            "isVeg": "non-veg"
+          
+          },
+          {
+            "name": "Margherita Pizza",
+            "price": 10.99,
+            "description": "Traditional Italian pizza with tomato, mozzarella, and basil.",
+            "isVeg": "veg"
+          }
+        ],
+        "averageRating": 4.7,
+        "reviews": []
+      },
+      {
+      
+        "name": "Sample Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main Street",
+        "city": "Lucknow",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "description": "Classic Italian pasta dish with bacon and eggs.",
+            "isVeg": "non-veg"
+          },
+          {
+            "name": "Margherita Pizza",
+            "price": 10.99,
+            "description": "Traditional Italian pizza with tomato, mozzarella, and basil.",
+            "isVeg": "veg"
+          }
+        ],
+        "averageRating": 4.7,
+        "reviews": []
+      },
+      {
+   
+        "name": "Sample Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main Street",
+        "city": "Sample City",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "description": "Classic Italian pasta dish with bacon and eggs.",
+            "isVeg": "non-veg"
+          },
+          {
+            "name": "Margherita Pizza",
+            "price": 10.99,
+            "description": "Traditional Italian pizza with tomato, mozzarella, and basil.",
+            "isVeg": "veg"
+          },
+          {
+            "name": "New Dish",
+            "price": 9.99,
+            "description": ""
+          }
+        ],
+        "averageRating": 4.7,
+        "reviews": []
+      },
+      {
+     
+        "name": "New Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main St",
+        "city": "New York",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Pizza Margherita",
+            "price": 12.99,
+            "description": ""
+          },
+          {
+            "name": "Pasta Carbonara",
+            "price": 15.99,
+            "description": ""
+          }
+        ],
+        "averageRating": 0,
+        "reviews": []
+        
+      },
+      {
+     
+        "name": "Restaurant",
+        "cuisine": ["Italian"],
+        "address": "123 Main St",
+        "city": "Delhi",
+        "rating": 4.5,
+        "menu": [
+          {
+            "name": "Pizza Margherita",
+            "price": 12.99,
+            "description": ""
+          },
+          {
+            "name": "Pasta Carbonara",
+            "price": 15.99,
+            "description": ""
+          }
+        ],
+        "averageRating": 0,
+        "reviews": []
+      
+      }
+    ]
+  
+  

@@ -1,15 +1,21 @@
 require("dotenv").config()
 
 const ConnectDB = require("./db/connect")
-const product = require("./models/product")
+const Restaurant = require("./models/RestaurantModel")
+const User = require("./models/userModel")
 
-const productJson = require("./product.json")
+
+const userJson = require("./user.json")
+const restaurantJson = require("./Restaurant.json")
 
 const Start = async()=>{
   try {
     await ConnectDB(process.env.MONGODB_URL);
-    console.log("ConnectDB");
-    await product.create(productJson);
+    await User.create(userJson);
+
+
+    await Restaurant.deleteMany();
+    await Restaurant.create(restaurantJson);
     console.log("success")
   } catch (error) {
     console.log(error)

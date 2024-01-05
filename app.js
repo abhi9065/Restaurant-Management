@@ -3,16 +3,29 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const ConnectDB = require("./db/connect")
+const User = require("./models/userModel")
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 const product_route = require("./routes/product");
+
+
+app.use(express.json())
+
+
 
 app.get("/" , (req,res) =>{
     res.send("hi , i am alive")
 })
 
+
+app.get('/about', (req, res) => {
+  res.send('This is the About page.')
+})
+
 app.use("/api/products" , product_route )
+
+
 
 const Start = async() =>{
     try {
