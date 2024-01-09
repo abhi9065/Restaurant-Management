@@ -274,7 +274,7 @@ async function updateDataById(movieId){
   }
   
   // POST route to add reviews and ratings for a restaurant
-  router.post('/restaurant/:restaurantId/reviews', async (req, res) => {
+  router.post('/restaurant/:restaurantId/ratings', async (req, res) => {
     try {
       const restaurantId = req.params.restaurantId;
       const { userId, review, rating } = req.body;
@@ -288,6 +288,38 @@ async function updateDataById(movieId){
   });
   
    
+
+  async function getRestaurantReviewsWithUserDetails(restaurantId) {
+    try {
+      const restaurant = await Restaurant.findById(restaurantId).populate({
+        path: 'reviews',
+        populate: {
+  
+          path: 'user', select: 'username profilePictureUrl'
+        },
+      });
+      const reviewsWithUserDetails = restaurant.reviews.slice(0, 3).map(review => ({
+        reviewText: review.text,
+        user: review.user,
+      }));
+      return reviewsWithUserDetails;
+    } catch (error) {
+      throw error;
+    }
+  }
+  
+  router.get('/restaurant/:restaurantId/ratings', async (req, res) => {
+    try {
+      const restaurantId = req.params.restaurantId;
+      const reviewsWithUserDetails = await getRestaurantReviewsWithUserDetails(restaurantId);
+      res.json(reviewsWithUserDetails);
+    } catch (error) {
+      res.status(404).json({ error: 'Restaurant not found' });
+    }
+  });
+
+
+
    
   
 
